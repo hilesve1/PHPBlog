@@ -34,7 +34,6 @@
             <?php
              if($article->author == $_COOKIE['log']):
            ?>
-            <a href='update.php?id="<?=$article->id?>"'>Изменить</a>
              <a href="/changing.php">Изменить</a>
             <?php
             endif;
